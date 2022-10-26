@@ -699,7 +699,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "untitled1"
+			"value" : "screenshot_cleaner"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -982,7 +982,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "untitled1_BINARY_DIR",
+			"name" : "screenshot_cleaner_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -994,7 +994,7 @@
 			"value" : "/Users/uchienuruunari/CLionProjects/screenshot_cleaner/cmake-build-debug"
 		},
 		{
-			"name" : "untitled1_IS_TOP_LEVEL",
+			"name" : "screenshot_cleaner_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1006,7 +1006,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "untitled1_SOURCE_DIR",
+			"name" : "screenshot_cleaner_SOURCE_DIR",
 			"properties" : 
 			[
 				{

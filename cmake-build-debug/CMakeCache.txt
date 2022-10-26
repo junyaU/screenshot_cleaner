@@ -122,7 +122,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=untitled1
+CMAKE_PROJECT_NAME:STATIC=screenshot_cleaner
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/ranlib
@@ -187,13 +187,13 @@ CMAKE_STRIP:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-untitled1_BINARY_DIR:STATIC=/Users/uchienuruunari/CLionProjects/screenshot_cleaner/cmake-build-debug
+screenshot_cleaner_BINARY_DIR:STATIC=/Users/uchienuruunari/CLionProjects/screenshot_cleaner/cmake-build-debug
 
 //Value Computed by CMake
-untitled1_IS_TOP_LEVEL:STATIC=ON
+screenshot_cleaner_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-untitled1_SOURCE_DIR:STATIC=/Users/uchienuruunari/CLionProjects/screenshot_cleaner
+screenshot_cleaner_SOURCE_DIR:STATIC=/Users/uchienuruunari/CLionProjects/screenshot_cleaner
 
 
 ########################

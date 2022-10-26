@@ -1,0 +1,4 @@
+# ninja log v5
+6	73	1666795805961426725	build.ninja	6de9e43cce2090d0
+0	68	1666709379915497922	CMakeFiles/screenshot_cleaner.dir/main.c.o	f9b7f5f8f664dd69
+68	132	1666709379980494525	screenshot_cleaner	6eae7f37216f75f4

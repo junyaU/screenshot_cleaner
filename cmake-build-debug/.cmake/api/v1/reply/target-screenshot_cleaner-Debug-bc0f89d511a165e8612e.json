@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "untitled1"
+			"path" : "screenshot_cleaner"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "untitled1::@6890427a1f51a3e7e1df",
+	"id" : "screenshot_cleaner::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -72,8 +72,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "untitled1",
-	"nameOnDisk" : "untitled1",
+	"name" : "screenshot_cleaner",
+	"nameOnDisk" : "screenshot_cleaner",
 	"paths" : 
 	{
 		"build" : ".",
