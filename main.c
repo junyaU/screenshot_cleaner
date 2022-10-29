@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <unistd.h>
 
+#include "cleaner.h"
+
 #define PATH_SIZE 512
 
 int main() {
@@ -15,24 +17,11 @@ int main() {
   //
   //    printf("%s", result);
 
-  DIR *dir;
-  struct dirent *dp;
-  char dir_path[] = "/Users/uchienuruunari";
-  dir = opendir(dir_path);
+  printf("Running...\n");
 
-  if (dir == NULL) {
-    return 1;
-  }
+  clean();
 
-  dp = readdir(dir);
-  while (dp != NULL) {
-    printf("%s\n", dp->d_name);
-    dp = readdir(dir);
-  }
-
-  if (dir != NULL) {
-    closedir(dir);
-  }
+  printf("All done\n");
 
   return 0;
 }

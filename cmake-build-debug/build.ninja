@@ -52,6 +52,12 @@ build CMakeFiles/screenshot_cleaner.dir/main.c.o: C_COMPILER__screenshot_cleaner
   OBJECT_DIR = CMakeFiles/screenshot_cleaner.dir
   OBJECT_FILE_DIR = CMakeFiles/screenshot_cleaner.dir
 
+build CMakeFiles/screenshot_cleaner.dir/cleaner.c.o: C_COMPILER__screenshot_cleaner_Debug /Users/uchienuruunari/CLionProjects/screenshot_cleaner/cleaner.c || cmake_object_order_depends_target_screenshot_cleaner
+  DEP_FILE = CMakeFiles/screenshot_cleaner.dir/cleaner.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/screenshot_cleaner.dir
+  OBJECT_FILE_DIR = CMakeFiles/screenshot_cleaner.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target screenshot_cleaner
@@ -60,7 +66,7 @@ build CMakeFiles/screenshot_cleaner.dir/main.c.o: C_COMPILER__screenshot_cleaner
 #############################################
 # Link the executable screenshot_cleaner
 
-build screenshot_cleaner: C_EXECUTABLE_LINKER__screenshot_cleaner_Debug CMakeFiles/screenshot_cleaner.dir/main.c.o
+build screenshot_cleaner: C_EXECUTABLE_LINKER__screenshot_cleaner_Debug CMakeFiles/screenshot_cleaner.dir/main.c.o CMakeFiles/screenshot_cleaner.dir/cleaner.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/screenshot_cleaner.dir
   POST_BUILD = :
