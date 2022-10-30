@@ -12,16 +12,16 @@
 const char SCREEN_SHOT_PATH_NAME_JA[] = "スクリーンショット";
 const char SCREEN_CAPTURE_PATH_NAME_JA[] = "画面収録";
 
-void searchTargetFile(char path_name[]);
+void search_target_file(char path_name[]);
 
 void clean() {
   char home_path[128];
   strncpy(home_path, getenv("HOME"), sizeof(home_path));
 
-  searchTargetFile(home_path);
+  search_target_file(home_path);
 }
 
-void searchTargetFile(char path_name[]) {
+void search_target_file(char path_name[]) {
   DIR *dir;
   struct dirent *dp;
   dir = opendir(path_name);
@@ -37,7 +37,7 @@ void searchTargetFile(char path_name[]) {
     snprintf(target_path, path_len, "%s%s%s", path_name, "/", dp->d_name);
 
     if (dp->d_type == DT_DIR && dp->d_name[0] != '.') {
-      searchTargetFile(target_path);
+      search_target_file(target_path);
     }
 
     if (strstr(dp->d_name, SCREEN_CAPTURE_PATH_NAME_JA) != NULL ||

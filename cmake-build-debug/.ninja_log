@@ -24,3 +24,6 @@
 46	89	1667056607881361794	screenshot_cleaner	3d79944761ba1e45
 1	50	1667056629691157740	CMakeFiles/screenshot_cleaner.dir/cleaner.c.o	b489e6a5839eca7c
 50	93	1667056629734153204	screenshot_cleaner	3d79944761ba1e45
+0	41	1667098155672328053	CMakeFiles/screenshot_cleaner.dir/main.c.o	f9b7f5f8f664dd69
+0	54	1667098155684853643	CMakeFiles/screenshot_cleaner.dir/cleaner.c.o	b489e6a5839eca7c
+54	100	1667098155732426824	screenshot_cleaner	3d79944761ba1e45
