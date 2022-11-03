@@ -22,9 +22,7 @@ void clean(int signal) {
   char home_path[128];
   strncpy(home_path, getenv("HOME"), sizeof(home_path));
 
-  printf("Running...\n");
   search_target_file(home_path);
-  printf("All done\n");
 }
 
 void search_target_file(char path_name[]) {
@@ -49,10 +47,8 @@ void search_target_file(char path_name[]) {
     if (strstr(dp->d_name, SCREEN_CAPTURE_PATH_NAME_JA) != NULL ||
         strstr(dp->d_name, SCREEN_SHOT_PATH_NAME_JA) != NULL) {
       int result = remove(target_path);
-      if (result == 0) {
-        printf("%sの削除に成功しました\n", target_path);
-      } else {
-        printf("%sの削除に失敗しました\n", target_path);
+      if (result != 0) {
+        exit(1);
       }
     }
 
