@@ -5,6 +5,6 @@
 #ifndef SCREENSHOT_CLEANER_CLEANER_H
 #define SCREENSHOT_CLEANER_CLEANER_H
 
-void clean();
+void clean(int signal);
 
 #endif  // SCREENSHOT_CLEANER_CLEANER_H

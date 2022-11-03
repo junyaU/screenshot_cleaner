@@ -14,11 +14,17 @@ const char SCREEN_CAPTURE_PATH_NAME_JA[] = "画面収録";
 
 void search_target_file(char path_name[]);
 
-void clean() {
+void clean(int signal) {
+  if (signal != SIGALRM) {
+    return;
+  }
+
   char home_path[128];
   strncpy(home_path, getenv("HOME"), sizeof(home_path));
 
+  printf("Running...\n");
   search_target_file(home_path);
+  printf("All done\n");
 }
 
 void search_target_file(char path_name[]) {
